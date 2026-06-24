@@ -111,7 +111,7 @@ All other tables use single-attribute primary keys, meaning partial dependency i
 
 Two transitive dependencies were identified and resolved:
 
-<img width="292" height="290" alt="3nf" src="https://github.com/user-attachments/assets/678577d9-3f21-4ef4-8336-22fe1b3d039f" />
+<img width="352" height="350" alt="3nf" src="https://github.com/user-attachments/assets/678577d9-3f21-4ef4-8336-22fe1b3d039f" />
 
 
 **1. Category → ItemType → ItemID (in `Item`)**
@@ -145,7 +145,7 @@ The Logical Model uses **Crow's Foot (Barker/UML) notation** to express cardinal
 ## 🏗️ Physical Model
 
 The Physical Model translates the Logical Model into a concrete, implementation-ready schema.
-<img width="385" height="304" alt="Physical Model" src="https://github.com/user-attachments/assets/176e2274-5622-4e61-aeb0-d55bf06556c0" />
+<img width="445" height="354" alt="Physical Model" src="https://github.com/user-attachments/assets/176e2274-5622-4e61-aeb0-d55bf06556c0" />
 
 
 ### Data Type Decisions
