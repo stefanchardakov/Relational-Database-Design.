@@ -14,6 +14,16 @@ The design was developed in response to a real operational brief from the head l
 - **Physical Model:** A concrete database schema derived from the Logical Model, with named conventions, data types, and integrity constraints ready for implementation in any standard RDBMS.
 
 ---
+## 🎯 Key Skills Demonstrated
+
+- **Database Normalisation** — Rigorous progression from UNF to 3NF with annotated assumptions at each stage
+- **Entity-Relationship Modelling** — Crow's Foot (Barker/UML) notation; Chen style explicitly avoided per brief
+- **Relational Schema Design** — Correct use of primary keys, foreign keys, composite keys, and associative entities
+- **Requirements Analysis** — Business brief translated into formal data model with justified design decisions
+- **Physical Data Modelling** — Data type selection (VARCHAR, INT, DECIMAL) with rationale
+- **Constraint Design** — NOT NULL, nullable, and referential integrity constraints applied deliberately
+- **Technical Documentation** — Written to a professional standard suitable for a development handover
+---
 
 ## 🧩 Business Requirements
 
@@ -158,14 +168,10 @@ The Physical Model translates the Logical Model into a concrete, implementation-
 | `COMPOSITE PK` | (LoanID, ItemID) in LoanItem | Ensures each item can only appear once per loan transaction |
 
 ---
-## 🎯 Key Skills Demonstrated
+## 🛠️ Tools Used
 
-- **Database Normalisation** — Rigorous progression from UNF to 3NF with annotated assumptions at each stage
-- **Entity-Relationship Modelling** — Crow's Foot (Barker/UML) notation; Chen style explicitly avoided per brief
-- **Relational Schema Design** — Correct use of primary keys, foreign keys, composite keys, and associative entities
-- **Requirements Analysis** — Business brief translated into formal data model with justified design decisions
-- **Physical Data Modelling** — Data type selection (VARCHAR, INT, DECIMAL) with rationale
-- **Constraint Design** — NOT NULL, nullable, and referential integrity constraints applied deliberately
-- **Technical Documentation** — Written to a professional standard suitable for a development handover
-
----
+- Draw.io / Lucidchart
+- MySQL Workbench
+- Relational Database Design
+- Crow's Foot ER Modelling
+- Database Normalisation (UNF → 3NF)
