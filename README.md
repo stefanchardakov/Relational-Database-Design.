@@ -135,7 +135,6 @@ The Logical Model uses **Crow's Foot (Barker/UML) notation** to express cardinal
 The Physical Model translates the Logical Model into a concrete, implementation-ready schema.
 <img width="385" height="304" alt="Physical Model" src="https://github.com/user-attachments/assets/176e2274-5622-4e61-aeb0-d55bf06556c0" />
 
-<img width="480" height="370" alt="12332133123123131231313123" src="https://github.com/user-attachments/assets/6e2f7716-3ad8-4be6-b70d-5db53aa4fef9" />
 
 ### Data Type Decisions
 
