@@ -170,7 +170,7 @@ The Physical Model translates the Logical Model into a concrete, implementation-
 ---
 ## 🛠️ Tools Used
 
-- Draw.io / Lucidchart
+- Draw.io 
 - MySQL Workbench
 - Relational Database Design
 - Crow's Foot ER Modelling
