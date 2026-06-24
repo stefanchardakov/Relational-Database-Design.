@@ -79,7 +79,7 @@ The starting point was a flat loan record containing repeating groups: because a
 
 The UNF was decomposed into six relations to eliminate repeating groups:
 
-<img width="378" height="193" alt="1nf" src="https://github.com/user-attachments/assets/33cc17e5-a9fc-4ce2-822c-4181e07a9237" />
+<img width="448" height="243" alt="1nf" src="https://github.com/user-attachments/assets/33cc17e5-a9fc-4ce2-822c-4181e07a9237" />
 
 
 
