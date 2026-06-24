@@ -79,7 +79,8 @@ The starting point was a flat loan record containing repeating groups: because a
 
 The UNF was decomposed into six relations to eliminate repeating groups:
 
-<img width="378" height="193" alt="1nf" src="https://github.com/user-attachments/assets/41e3dc3a-d652-4a1c-a3d4-5ce10fa32022" />
+<img width="378" height="193" alt="1nf" src="https://github.com/user-attachments/assets/33cc17e5-a9fc-4ce2-822c-4181e07a9237" />
+
 
 
 **Key decisions:**
@@ -110,7 +111,8 @@ All other tables use single-attribute primary keys, meaning partial dependency i
 
 Two transitive dependencies were identified and resolved:
 
-<img width="292" height="290" alt="3nf" src="https://github.com/user-attachments/assets/6ecca481-1562-4cf2-af29-878c8e95bf22" />
+<img width="292" height="290" alt="3nf" src="https://github.com/user-attachments/assets/678577d9-3f21-4ef4-8336-22fe1b3d039f" />
+
 
 **1. Category → ItemType → ItemID (in `Item`)**
 `Category` described the broad classification of an item (e.g., "Non-fiction"), but it depended on `ItemType` (e.g., "Book") rather than on the item's primary key directly. This is a transitive dependency. Resolution: a new **`ItemType`** table was created, holding `ItemTypeID`, `ItemType`, and `Category`. `Item` now references `ItemType` via a foreign key, satisfying the library's requirement that all items be categorised.
