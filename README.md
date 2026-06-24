@@ -116,8 +116,7 @@ Publisher details (name, contact, etc.) were transitively dependent on `Publishe
 
 The Logical Model uses **Crow's Foot (Barker/UML) notation** to express cardinality and participation constraints, as specified in the brief. Chen-style notation was explicitly not used.
 
-<img width="480" height="338" alt="image" src="https://github.com/user-attachments/assets/f4fb211d-8073-4fc6-8c29-aea05b0b0263" />
-<img width="380" height="229" alt="logical model" src="https://github.com/user-attachments/assets/87e5a053-27b4-422f-bf1a-9c00adbddf50" />
+<img width="480" height="338" alt="logical model" src="https://github.com/user-attachments/assets/87e5a053-27b4-422f-bf1a-9c00adbddf50" />
 
 | Relationship | Cardinality & Participation |
 |---|---|
