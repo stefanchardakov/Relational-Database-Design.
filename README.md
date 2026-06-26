@@ -61,7 +61,7 @@ The following requirements were extracted from the client brief and informed all
 
 ### UNF — Unnormalised Form
 
-<img width="700" height="600" alt="UNF" src="https://github.com/user-attachments/assets/ab55639f-92d7-4c24-8a16-4919a3573ef9" />
+<img width="400" height="300" alt="UNF" src="https://github.com/user-attachments/assets/ab55639f-92d7-4c24-8a16-4919a3573ef9" />
 
 
 The starting point was a flat loan record containing repeating groups: because a single loan can include multiple items, item-related attributes (title, due date, return date, fine amount) appeared multiple times within one record. Member and staff details appeared once per loan and were treated as non-repeating.
